@@ -1,6 +1,10 @@
 import g54ubi.chat.server.Connection;
+import g54ubi.chat.server.Server;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class ServerTest{
 	@Test
